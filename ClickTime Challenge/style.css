@@ -1,0 +1,36 @@
+/* Created by Akash Rastogi */
+
+@CHARSET "UTF-8";
+#heading{
+    color: purple;
+    font-size: 40pt;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#subHead{
+    font-size: 15pt;
+    margin-top: 65px;
+}
+
+.centerAlign{
+	text-align: center;
+}
+
+.timerBox{
+	background-color: lightskyblue;	
+	text-align: center;
+	margin-top: 50px;
+}
+
+#upTimer{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+
+#downTimer{
+	float: right;
+	width: 40%;
+	margin-right: 5%;
+}

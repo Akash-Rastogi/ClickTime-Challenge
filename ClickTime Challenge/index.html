@@ -1,0 +1,34 @@
+<!-- Created By Akash Rastogi -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="timer.js"></script>
+		
+		<title>ClickTime : Perfect Timing</title>
+	</head>
+	<body>
+		<div class="centerAlign">
+			<p id="heading">Perfect Timing</p>
+			<p id="subHead">Specify how many seconds to count up to / down from</p>
+			<input type="number" id="countTarget" onchange="setTimers(0,'initial')" autocomplete="off"/>
+		</div>
+		
+		<div id="upTimer" class="timerBox">
+			<h1>Count Up Timer</h1>
+			<h1 id="upTimerValue">0 days 0 hours 0 minutes 0 seconds</h1>
+			<button id="upStart" onclick="countUpTimerStart()">Start</button>
+			<button id="upReset" onclick="resetTimers('up')">Reset</button>
+		</div>
+		
+		<div id="downTimer" class="timerBox">
+			<h1>Count Down Timer</h1>
+			<h1 id="downTimerValue">0 days 0 hours 0 minutes 0 seconds</h1>	
+			<button id="downStart" onclick="countDownTimerStart()">Start</button>
+			<button id="downReset" onclick="resetTimers('down')">Reset</button>
+		</div>
+		
+	</body>
+</html>
